@@ -6,7 +6,10 @@ public class User {
     protected String email;
     protected String country;
 
-    public User() {
+    public User(String name, String email, String country) {
+        this.name=name;
+        this.email=email;
+        this.country=country;
     }
 
     public User(int id, String name, String email, String country) {
